@@ -1,0 +1,40 @@
+* {
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 1000px;
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    border:1px solid white;
+    margin: 20px 0px 20px 0px;
+    padding: 20px ;
+    background-color: Tomato;
+    color:white;
+    font-family: "Arial Narrow";
+}
+
+h2{
+    border:1px solid white;
+    margin: 20px 0px 20px 0px;
+    padding: 20px ;
+    background-color: DodgerBlue;
+    color:white;
+    font-family: "Arial Narrow";
+}
+
+h3{
+    border:1px solid white;
+    margin: 20px 0px 20px 0px;
+    padding: 20px ;
+    background-color: MediumSeaGreen;
+    color:white;
+    font-family: "Arial Narrow";
+}
+

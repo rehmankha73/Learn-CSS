@@ -1,0 +1,110 @@
+* {
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    border:1px solid white;
+    margin: 20px 0px 20px 0px;
+    padding: 20px ;
+    background-color: Tomato;
+    color:white;
+    font-family: "Arial Narrow";
+}
+
+h2{
+    border:1px solid white;
+    margin: 20px 0px 20px 0px;
+    padding: 20px ;
+    background-color: DodgerBlue;
+    color:white;
+    font-family: "Arial Narrow";
+}
+
+h3{
+    border:1px solid white;
+    margin: 20px 0px 20px 0px;
+    padding: 20px ;
+    background-color: MediumSeaGreen;
+    color:white;
+    font-family: "Arial Narrow";
+}
+
+
+p.p1 {
+    text-align: justify;
+    text-align-last: center;
+    border:1px solid white;
+    margin: 20px 0px 20px 0px;
+    padding: 20px ;
+    background-color: Tomato;
+    color:white;
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    text-transform: capitalize;
+    text-indent: 100px;
+    word-spacing: 5px;
+    font-family: "Arial Narrow";
+}
+
+p.p1 > span {
+    text-decoration: line-through;
+    background-color: Tomato;
+    color:white;
+}
+
+p.p2 {
+    text-shadow: 2px 2px black;
+    text-align: justify;
+    text-align-last: center;
+    border:1px solid white;
+    margin: 20px 0px 20px 0px;
+    padding: 20px ;
+    background-color: Skyblue;
+    color:white;
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    text-transform: capitalize;
+    text-indent: 100px;
+    word-spacing: 5px;
+    font-family: "Arial";
+}
+
+p.p3 {
+    background-color: Green;
+    margin: 20px 0px 20px 0px;
+    padding: 20px ;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 38px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+p.normal {
+    font-size: 38px;
+    font-style: normal;
+}
+
+p.italic {
+    font-size: 38px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p.oblique {
+    font-variant: small-caps;
+    font-size: 38px;
+    font-weight: normal;
+    font-style: oblique;
+}
+
+body {
+    font-family: "Sofia", sans-serif;
+}
+
+h5 {
+font-size: 36px;
+}

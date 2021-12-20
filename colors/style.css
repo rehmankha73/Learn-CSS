@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3{
+    margin: 20px 0px 20px 0px;
+    padding: 20px ;
+    background-color: rgba(45,25,12,0.75);
+    color:white;
+    font-family: "Arial Narrow";
+}
+/*class selector*/
+.headingByClass {
+    color:blue;
+    font-family: "Arial Narrow";
+}
+
+/*id selector*/
+#headingById{
+    color:green;
+    font-family: "Arial Narrow";
+}
+
+/*type selector*/
+h3.headingByClass {
+    color:orange;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 34px;
+}
