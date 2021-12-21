@@ -4,11 +4,7 @@
     padding: 0px;
 }
 
-body{
-    padding: 150px 50px;
-}
-
-h1{
+h1 {
     color: yellow;
     letter-spacing: 2px;
 }
@@ -46,7 +42,7 @@ h1{
     align-self: center;
 }
 
-h2{
+h2 {
     margin-top: 20px;
     color: DodgerBlue;
     letter-spacing: 2px;
@@ -109,4 +105,69 @@ h2{
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+}
+
+.wrapper{
+    background-color: Teal;
+    border: 2px solid white;
+    margin-bottom: 100px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-item {
+    background-color: teal;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+img {
+    background-color: Teal;
+    width: 100px;
+    margin: 10px;
+}
+
+ul {
+    background-color: teal;
+    width: 50%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul > li {
+    background-color: teal;
+    list-style: none;
+    color: White;
+}
+
+ul > li:hover {
+    cursor: pointer;
+}
+
+.registration {
+    width: 30%;
+    background-color: Teal;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.registration > button {
+    margin: 0 10px;
+    font-weight: bold;
+    color: White;
+    background-color: Teal;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.registration > button:hover {
+    color: Teal;
+    background-color: White;
+    border: 2px solid Teal;
 }
